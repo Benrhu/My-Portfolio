@@ -15,9 +15,14 @@ function EmojiBullet(props) {
                 component={'span'} 
                 aria-label="cheese"
                 role="img"
-                mr={{xs: '0.5rem', md: '1rem'}} 
+                mr={
+                    {
+                        xs: '0.5rem', 
+                        md: '1rem'
+                    }
+                } 
                 fontSize={'1.5rem'}>
-                    {emoji}
+            {emoji}
             </Box> 
             {text}
         </Box>

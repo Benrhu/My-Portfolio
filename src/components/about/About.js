@@ -6,14 +6,15 @@ import {info} from "../../info/Info";
 
 
 export default function About() {
-    const firstName = info.firstName.toLowerCase()
+    const firstName = "ruben"
+    const lastName = "diaz"
 
     function aboutMeText() {
         return <>
             <p>
                 <span style={{color: info.baseColor}}>
                     {firstName}
-                    {info.lastName.toLowerCase()}
+                    {lastName}
                     $&nbsp; 
                 </span>
                     cat about{firstName} 
@@ -23,8 +24,10 @@ export default function About() {
                 <span style={{color: info.baseColor}}>
                     about{firstName} 
                     <span
-                        className={Style.green}> (main)</span> $ </span>
-                        {info.bio}
+                        className={Style.green}> (main)</span>
+                        $ 
+                    </span>
+                    {info.bio}
             </p>
         </>;
     }
@@ -78,7 +81,7 @@ export default function About() {
             <p>
                 <span style={{color: info.baseColor}}>
                     {firstName}
-                    {info.lastName.toLowerCase()} $
+                    {lastName} $
                 </span> cd hobbies/interests
             </p>
 

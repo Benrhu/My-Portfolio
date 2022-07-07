@@ -8,12 +8,15 @@ export let colors = [
 ];
 
 export const info = {
-    firstName: "Ruben",
+    firstName: "Rubén",
     lastName: "Díaz",
     initials: "TS", 
-    position: "a Full Stack Developer",
+    position: "a FullStack Developer",
     selfPortrait: me,
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`,
+    gradient: `-webkit-linear-gradient(
+        135deg, 
+        ${colors}
+    )`,
     baseColor: colors[0],
     miniBio: [ 
         {
@@ -48,7 +51,7 @@ export const info = {
         }
 
     ],
-    bio: "Hello! I'm Rubén. I'm a backend developer. I studied at OpenBootCamp.com, I enjoy long walks on the mountain and I believe blockchain technology will inevitably and forever change the way we relate to and use money. You should hire me :)",
+    bio: "Hello! I'm Rubén. I'm a FullStack Developer. I studied at OpenBootCamp.com, I enjoy long walks on the mountain and I believe blockchain technology will inevitably and forever change the way we relate to and use money. You should hire me :)",
     skills:
         {
             experienceWith: [
@@ -63,7 +66,8 @@ export const info = {
                 'Angular'
             ],
             exposedTo: [
-                'c#', 
+                'c#',
+                '.net',
                 'python', 
                 'unity'
             ]

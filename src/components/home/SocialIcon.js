@@ -6,7 +6,10 @@ function SocialIcon(props) {
         <a target="_blank"
            rel="noopener noreferrer" 
            href={link}>
-            <i className={icon} aria-hidden="true"/>
+            <i 
+                className={icon} 
+                aria-hidden="true"
+            />
         </a>
     );
 }

@@ -17,7 +17,7 @@ export default function Portfolio() {
                     md={4}>
                        <PortfolioBlock 
                        image={project.image} 
-                       live={project.live} 
+                       demo={project.demo} 
                        source={project.source} 
                        title={project.title} />
                    </Grid>

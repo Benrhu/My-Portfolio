@@ -13,7 +13,12 @@ export default function Home() {
       <Box 
          component={'main'} 
          display={'flex'} 
-         flexDirection={{xs: 'column', md: 'row'}} 
+         flexDirection={
+            {
+               xs: 'column', 
+               md: 'row'
+            }
+         } 
          alignItems={'center'}
          justifyContent={'center'} 
          minHeight={'calc(100vh - 175px)'}>
@@ -29,12 +34,13 @@ export default function Home() {
          
             <Box>
                <h1>Hi, I'm 
-                  <span style={{ 
+                  <span style={
+                     { 
                      background: info.gradient, 
                      webkitBackgroundClip: 'text', 
                      webkitTextFillColor: 'transparent'
-                     }}>
-                        {info.firstName}
+                     }
+                     }> {info.firstName}
                      </span>
                     
                      <span className={Style.hand}>
@@ -47,9 +53,11 @@ export default function Home() {
                <Box 
                   component={'ul'} 
                   p={'0.8rem'}>
-                  
                   {info.miniBio.map(bio => (
-                     <EmojiBullet emoji={bio.emoji} text={bio.text}/>
+                     <EmojiBullet 
+                        emoji={bio.emoji} 
+                        text={bio.text}
+                     />
                   ))}
                </Box>
                
