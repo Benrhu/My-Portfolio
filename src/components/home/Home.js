@@ -56,7 +56,7 @@ export default function Home() {
                   {info.miniBio.map(bio => (
                      <EmojiBullet 
                         emoji={bio.emoji} 
-                        text={<a href="https://calendly.com/rubendh/30min">Book a meeting</a>}
+                        text={bio.text}
                      />
                   ))}
                </Box>

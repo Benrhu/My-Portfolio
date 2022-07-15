@@ -30,10 +30,6 @@ export const info = {
         {
             emoji: "💼",
             text: "Junior Java Development"
-        },
-        {
-            emoji: "📧",
-            text: "rubendiaz300000@gmail.com"
         }
     ],
     socials: [
