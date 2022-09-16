@@ -10,8 +10,8 @@ export let colors = [
 export const info = {
     firstName: "Rubén",
     lastName: "Díaz",
-    initials: "TS", 
-    position: "a FullStack Developer",
+    initials: "Dev", 
+    // position: "CEO of grouzy.com",
     selfPortrait: me,
     gradient: `-webkit-linear-gradient(
         135deg, 
@@ -21,15 +21,15 @@ export const info = {
     miniBio: [ 
         {
             emoji: '🔥',
-            text: 'fueled by passion'
+            text: 'fueled by passion,  ambittion and people'
         },
         {
             emoji: '🌎',
-            text: 'based in Spain'
+            text: 'based in Barcelona, Spain'
         },
         {
             emoji: "💼",
-            text: "Junior Java Development"
+            text: "creating software that makes money"
         }
     ],
     socials: [
@@ -47,43 +47,42 @@ export const info = {
         }
 
     ],
-    bio: "Hello! I'm Rubén. I'm a FullStack Developer. I studied at OpenBootCamp.com, I enjoy long walks on the mountain and I believe blockchain technology will inevitably and forever change the way we relate to and use money. You should hire me :)",
+    bio: "Hello! I'm Rubén. I'm a FullStack Developer that loves selling. I keep studing coding at OpenBootCamp.com. For another hand, I enjoy long walks on the mountain and I love hamster and cats, dogs as well :)",
     skills:
         {
             experienceWith: [
-                'java', 
-                'spring', 
-                'node', 
-                'git', 
-                'github', 
-                'html5', 
-                'css3', 
-                'figma',
+                'Java', 
+                'Spring', 
+                'Node', 
+                'Git', 
+                'Html', 
+                'Css',
+                'Figma',
+                'React',
                 'Angular'
             ],
             exposedTo: [
-                'c#',
-                '.net',
-                'python', 
-                'unity'
+                'Solidity',
+                'Elixir',
+                'AWS'
             ]
         }
     ,
     hobbies: [
         {
-            label: 'theater',
+            label: 'Theater',
             emoji: '🎭'
         },
         {
-            label: 'philosophy',
+            label: 'Personal Development',
             emoji: '🤔'
         },
         {
-            label: 'reading',
+            label: 'Read and learn new things',
             emoji: '📖'
         },
         {
-            label: 'kungfu',
+            label: 'Kung Fu',
             emoji: '👊'
         },
     ],
@@ -94,8 +93,8 @@ export const info = {
             image: img1
         },
         {
-            title: "Project 2",
-            live: "",
+            title: "Grouzy",
+            live: "https://grouzy.com/",
             source: "",
             image: img2
         },

@@ -48,7 +48,7 @@ export default function Home() {
                      </span>
                </h1>
 
-               <h2>I'm {info.position}.</h2>
+               <h2>CEO of <a href="https://www.grouzy.com" target="_blank">Grouzy.com</a>.</h2>
                
                <Box 
                   component={'ul'} 

@@ -64,7 +64,7 @@ export default function About() {
             </ul>
             
             <p style={{color: info.baseColor}}>
-                Exposed To
+                Learning:
             </p>
             <ul className={Style.skills}>
                 {info.skills.exposedTo.map(skill => 
